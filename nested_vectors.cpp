@@ -45,6 +45,7 @@ int main()
     int rows;
     cout << "ENTER NUMBER OF ROWS: ";
     cin >> rows;
+    v3.resize(rows);
     for (int i = 0; i < rows; i++)
     {
         int column;
